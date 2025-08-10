@@ -2,13 +2,12 @@
 // 
 // Created: Aug 9 2025 21:41
 //
-// Edited: 2025-Aug-09 23:44
+// Edited: 2025-Aug-09 23:47
 
 #include <dt-bindings/zmk/matrix_transform.h> 
 
 / {
     chosen {
-        zmk,kscan = &kscan0;
         zmk,physical-layout = &physical_layout0;
 
     };
