@@ -2,7 +2,7 @@
 // 
 // Created: Aug 9 2025 21:41
 //
-// Edited: 2025-Aug-09 22:52
+// Edited: 2025-Aug-09 22:56
 
 / {
     chosen {
@@ -22,11 +22,12 @@
             , <&pro_mirco 22 GPIO_ACTIVE_HIGH> 
             ;
         row-gpios
-            = <&pro_mirco 09 GPIO_ACTIVE_HIGH>
-            , <&pro_mirco 111 GPIO_ACTIVE_HIGH>
-            , <&pro_mirco 113 GPIO_ACTIVE_HIGH>
-            , <&pro_mirco 115 GPIO_ACTIVE_HIGH> 
-            , <&pro_mirco 29 GPIO_ACTIVE_HIGH> 
+            = <&pro_mirco 09 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_mirco 111 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_mirco 113 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_mirco 115 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_mirco 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+
             ;
 
 
