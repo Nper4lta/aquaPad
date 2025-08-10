@@ -1,0 +1,10 @@
+file_format: "1"
+id: aquapad
+name: aquapad
+type: shield
+url: https://github.com/Nper4lta/aquaPad 
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - aquapad

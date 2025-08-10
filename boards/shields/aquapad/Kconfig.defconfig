@@ -1,0 +1,14 @@
+# 
+# Kconfig defconfig
+# 
+# Created: 2025-Aug-09 21:29
+# 
+# Edited: 2025-Aug-09 21:31
+
+if SHIELD_AQUAPAD
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "aquaPad"
+
+endif

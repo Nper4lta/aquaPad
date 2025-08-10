@@ -1,0 +1,31 @@
+// Keymap
+//
+// Created: Aug 9 2025 22:00
+//
+// Edited: 2025-Aug-09 22:04
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            //  
+            //
+            bindings = <
+            // NUM | Divide | Multiply | Minus
+           &kp KP_NUM &kp KP_DIVIDE &kp KP_MULTIPLY &kp KP_MINUS
+           //   7  |    8   |     9    | Plus
+           &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_PLUS
+           //   4  |    5   |     6    | Plus
+           &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS
+           //   1  |    2   |     3    | Plus
+           &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_PLUS
+           //   0  |    .   |     Enter    | None
+           &kp KP_N0 &kp KP_DOT &kp KP_EQUAL &none
+            >;
+         };
+    };
+};
