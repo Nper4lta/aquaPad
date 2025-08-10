@@ -2,7 +2,7 @@
 // 
 // Created: Aug 9 2025 21:41
 //
-// Edited: 2025-Aug-09 23:04
+// Edited: 2025-Aug-09 23:06
 
 / {
     chosen {
@@ -47,7 +47,7 @@
              RC(3,0)  RC(3,1)   RC(3,2)  RC(3,3)
             // Key 17| Key 18 | Key 19 | Key 20
              RC(4,0)  RC(4,1)   RC(4,2)  RC(4,3)
-        >;
+         >;
     };
 
     physical_layout0: physical_layout_0 { // First physical layout, use different naming for other layouts
