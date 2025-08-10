@@ -1,4 +1,4 @@
-name: zmk-keyboard-aquapad
+name: zmk-keyboards-aquapad
 build:
   settings:
     board_root: .
