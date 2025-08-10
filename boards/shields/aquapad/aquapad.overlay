@@ -2,7 +2,7 @@
 // 
 // Created: Aug 9 2025 21:41
 //
-// Edited: 2025-Aug-09 22:56
+// Edited: 2025-Aug-09 23:04
 
 / {
     chosen {
@@ -22,7 +22,7 @@
             , <&pro_mirco 22 GPIO_ACTIVE_HIGH> 
             ;
         row-gpios
-            = <&pro_mirco 09 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&pro_mirco 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_mirco 111 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_mirco 113 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_mirco 115 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
