@@ -2,13 +2,12 @@
 // 
 // Created: Aug 9 2025 21:41
 //
-// Edited: 2025-Aug-09 23:32
+// Edited: 2025-Aug-09 23:38
 
 #include <dt-bindings/zmk/matrix_transform.h> 
 
 / {
     chosen {
-        zmk,kscan = &kscan0;
         zmk,physical-layout = &physical_layout0;
 
     };
@@ -29,10 +28,7 @@
             , <&pro_micro 113 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 115 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-
             ;
-
-
     }; 
     default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
