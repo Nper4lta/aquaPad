@@ -2,7 +2,7 @@
 // 
 // Created: Aug 9 2025 21:41
 //
-// Edited: 2025-Aug-09 23:21
+// Edited: 2025-Aug-09 23:27
 
 #include <dt-bindings/zmk/matrix_transform.h> 
 
@@ -12,7 +12,7 @@
         zmk,physical-layout = &physical_layout0;
 
     };
-    keyscan0: kscan0 {
+    kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row"; 
         wakeup-source;
