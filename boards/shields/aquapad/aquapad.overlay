@@ -2,12 +2,12 @@
 // 
 // Created: Aug 9 2025 21:41
 //
-// Edited: 2025-Aug-09 21:43
+// Edited: 2025-Aug-09 22:46
 
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &physical-layout0;
+        zmk,physical-layout = &physical_layout0;
 
     };
     keyscan0: kscan0 {
