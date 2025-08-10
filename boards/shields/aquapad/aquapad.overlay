@@ -2,7 +2,7 @@
 // 
 // Created: Aug 9 2025 21:41
 //
-// Edited: 2025-Aug-09 23:27
+// Edited: 2025-Aug-09 23:32
 
 #include <dt-bindings/zmk/matrix_transform.h> 
 
@@ -18,17 +18,17 @@
         wakeup-source;
 
         col-gpios
-            = <&pro_mirco 106 GPIO_ACTIVE_HIGH>
-            , <&pro_mirco 104 GPIO_ACTIVE_HIGH>
-            , <&pro_mirco 100 GPIO_ACTIVE_HIGH>
-            , <&pro_mirco 22 GPIO_ACTIVE_HIGH> 
+            = <&pro_micro 106 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 104 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 100 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 22 GPIO_ACTIVE_HIGH> 
             ;
         row-gpios
-            = <&pro_mirco 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_mirco 111 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_mirco 113 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_mirco 115 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_mirco 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro 111 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro 113 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro 115 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 
             ;
 
