@@ -2,7 +2,7 @@
 // 
 // Created: Aug 9 2025 21:41
 //
-// Edited: 2025-Aug-09 23:47
+// Edited: 2025-Aug-09 23:49
 
 #include <dt-bindings/zmk/matrix_transform.h> 
 
@@ -22,6 +22,7 @@
             , <&pro_micro 100 GPIO_ACTIVE_HIGH>
             , <&pro_micro 22 GPIO_ACTIVE_HIGH> 
             ;
+
         row-gpios
             = <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 111 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -30,6 +31,7 @@
             , <&pro_micro 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     }; 
+
     default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <4>; 
